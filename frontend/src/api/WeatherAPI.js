@@ -61,7 +61,7 @@ function WeatherApi(){
     //     const name = e.target.elements.name.value;
     //     e.preventDefault();
         
-    //     const api_call = await fetch('http://api.openweathermap.org/data/2.5/weather?&q=California&appid=f2002f7ae07db6bce3da0c22bea3c41f&units=imperial')
+    //     const api_call = await fetch('http://api.openweathermap.org/data/2.5/weather?&q=California&appid=&units=imperial')
         
     //     const response = await api_call.json();
     //     console.log(response);
