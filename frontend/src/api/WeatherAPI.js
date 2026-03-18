@@ -1,4 +1,4 @@
-const url = 'http://api.openweathermap.org/data/2.5/weather?&q=California&appid=f2002f7ae07db6bce3da0c22bea3c41f&units=imperial'
+const url = 'http://api.openweathermap.org/data/2.5/weather?&q=California&appid=&units=imperial'
 
 //WEATHER API //
 function WeatherApi(){
