@@ -4,7 +4,7 @@ const url = 'http://api.openweathermap.org/data/2.5/weather?&q=California&appid=
 function WeatherApi(){
     const []
   useEffect(() => {
-    const url ="http://api.openweathermap.org/data/2.5/weather?q=California&units=imperial&appid=f2002f7ae07db6bce3da0c22bea3c41f"
+    const url ="http://api.openweathermap.org/data/2.5/weather?q=California&units=imperial&appid="
     fetch(url).then(resp=>resp.json())
     .then(resp=>console.log(resp))
 
